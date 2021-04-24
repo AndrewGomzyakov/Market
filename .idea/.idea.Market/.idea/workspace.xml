@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1eda9e20-cd87-4bcf-8c32-74bb7f36eb42" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Market/Views/Login/Login.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Views/Login/Registry.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Views/Login/Login.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Views/Login/GetRegistry.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Views/Login/Registry.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Views/Login/GetRegistry.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Views/Login/GetUserBookings.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Views/Login/GetUserBookings.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Views/Shared/Error.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Views/Shared/_ValidationScriptsPartial.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Views/Product/Save.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Views/Product/GetRegistry.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Views/Product/GetRegistry.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Views/Product/Save.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Views/Category/Save.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Views/Category/GetRegistry.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Views/Category/GetRegistry.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Views/Category/Save.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Models/ProductRegistryModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Models/ProductSaveModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Models/LoginModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Models/RegistryModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Models/UserRole.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Models/CategorySaveModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Context/DbCategory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Context/DbBooking.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Context/MarketContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Context/DbUser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Context/DbProduct.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../MarketRepository/Market/Migrations/MarketContextModelSnapshot.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../MarketRepository/Market/Migrations/20200527183123_InitialCreate.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Services/PermissionService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Services/CategoryService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Controllers/ProductController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/ServiceInterfaces/IProductService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/ServiceInterfaces/ICategoryService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/ServiceInterfaces/IPermissionService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Controllers/LoginController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Services/ProductService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Controllers/CategoryController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Views/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Market/Context/MarketContext.cs" />
+      <option value="$PROJECT_DIR$/Market/Context/DbPhoto.cs" />
+      <option value="$PROJECT_DIR$/Market/Context/DbProduct.cs" />
+    </changedPaths>
+  </component>
+  <component name="ProjectId" id="1cJQc28m26DcQQhDqMvXF5m0OLl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.SolutionExplorerActivator" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.3" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.Market">
+    <configuration name="Market" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Market/Market.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="Market" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Market: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Market/Market.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1eda9e20-cd87-4bcf-8c32-74bb7f36eb42" name="Default Changelist" comment="" />
+      <created>1590244291238</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590244291238</updated>
+      <workItem from="1590244293138" duration="23091000" />
+      <workItem from="1590334394528" duration="847000" />
+      <workItem from="1590424577945" duration="5515000" />
+      <workItem from="1590497174490" duration="11686000" />
+      <workItem from="1590584310960" duration="21364000" />
+      <workItem from="1590676575276" duration="2574000" />
+      <workItem from="1618581586814" duration="146000" />
+      <workItem from="1619251249910" duration="2329000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="472" height="466" key="DebuggerActiveHint" timestamp="1590605101763">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="472" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1590605101763" />
+    <state width="1323" height="146" key="GridCell.Tab.0.bottom" timestamp="1590679499512">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="146" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590679499512" />
+    <state width="1323" height="146" key="GridCell.Tab.0.center" timestamp="1590679499512">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="146" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590679499512" />
+    <state width="1323" height="146" key="GridCell.Tab.0.left" timestamp="1590679499512">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="146" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590679499512" />
+    <state width="1323" height="146" key="GridCell.Tab.0.right" timestamp="1590679499512">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="146" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590679499512" />
+    <state width="1323" height="167" key="GridCell.Tab.1.bottom" timestamp="1590662568136">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="167" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590662568136" />
+    <state width="1323" height="167" key="GridCell.Tab.1.center" timestamp="1590662568136">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="167" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1590662568136" />
+    <state width="1323" height="167" key="GridCell.Tab.1.left" timestamp="1590662568136">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="167" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1590662568136" />
+    <state width="1323" height="167" key="GridCell.Tab.1.right" timestamp="1590662568136">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="167" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1590662568136" />
+    <state width="1323" height="167" key="GridCell.Tab.2.bottom" timestamp="1590662568151">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="167" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590662568151" />
+    <state width="1323" height="167" key="GridCell.Tab.2.center" timestamp="1590662568136">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="167" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1590662568136" />
+    <state width="1323" height="167" key="GridCell.Tab.2.left" timestamp="1590662568136">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="167" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1590662568136" />
+    <state width="1323" height="167" key="GridCell.Tab.2.right" timestamp="1590662568136">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="167" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1590662568136" />
+    <state width="1323" height="167" key="GridCell.Tab.3.bottom" timestamp="1590662568151">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="167" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590662568151" />
+    <state width="1323" height="167" key="GridCell.Tab.3.center" timestamp="1590662568151">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="167" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1590662568151" />
+    <state width="1323" height="167" key="GridCell.Tab.3.left" timestamp="1590662568151">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="167" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1590662568151" />
+    <state width="1323" height="167" key="GridCell.Tab.3.right" timestamp="1590662568151">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="167" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1590662568151" />
+    <state width="1323" height="167" key="GridCell.Tab.4.bottom" timestamp="1590662568151">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="167" key="GridCell.Tab.4.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590662568151" />
+    <state width="1323" height="167" key="GridCell.Tab.4.center" timestamp="1590662568151">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="167" key="GridCell.Tab.4.center/0.0.1366.728@0.0.1366.728" timestamp="1590662568151" />
+    <state width="1323" height="167" key="GridCell.Tab.4.left" timestamp="1590662568151">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="167" key="GridCell.Tab.4.left/0.0.1366.728@0.0.1366.728" timestamp="1590662568151" />
+    <state width="1323" height="167" key="GridCell.Tab.4.right" timestamp="1590662568151">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="167" key="GridCell.Tab.4.right/0.0.1366.728@0.0.1366.728" timestamp="1590662568151" />
+    <state x="499" y="54" key="RiderGenerateDialog" timestamp="1590511212406">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="499" y="54" key="RiderGenerateDialog/0.0.1366.728@0.0.1366.728" timestamp="1590511212406" />
+    <state width="691" height="372" key="XDebugger.FullValuePopup" timestamp="1590604872999">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="691" height="372" key="XDebugger.FullValuePopup/0.0.1366.728@0.0.1366.728" timestamp="1590604872999" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1590641511012">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1590641511012" />
+    <state x="339" y="17" width="672" height="676" key="search.everywhere.popup" timestamp="1590641355776">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="17" width="672" height="676" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1590641355776" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Market/Controllers/LoginController.cs</url>
+          <line>51</line>
+          <properties documentPath="$PROJECT_DIR$/Market/Controllers/LoginController.cs" initialLine="44">
+            <startOffsets>
+              <option value="1797" />
+              <option value="1854" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1870" />
+              <option value="1868" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Market/Services/ProductService.cs</url>
+          <line>135</line>
+          <properties documentPath="$PROJECT_DIR$/Market/Services/ProductService.cs" initialLine="134">
+            <startOffsets>
+              <option value="5081" />
+            </startOffsets>
+            <endOffsets>
+              <option value="5082" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Market/Controllers/CategoryController.cs</url>
+          <line>56</line>
+          <properties documentPath="$PROJECT_DIR$/Market/Controllers/CategoryController.cs" initialLine="56">
+            <startOffsets>
+              <option value="1601" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1651" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="LaunchSettings">
+        <watch expression="_context.Users.ToArray()" language="C#" custom="RiderImportsList:" />
+        <watch expression="_httpContextAccessor.HttpContext.User.Claims.First(c =&gt; c.Type == &quot;UserId&quot;)" language="C#" custom="RiderImportsList:" />
+        <watch expression="_context.Products.ToArray()" language="C#" custom="RiderImportsList:" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

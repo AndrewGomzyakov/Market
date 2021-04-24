@@ -1,0 +1,51 @@
+﻿@model LoginModel
+
+@{
+    Layout = null;
+    ViewBag.Title = "Login";  
+}  
+  
+@using (Html.BeginForm("Login", "Login", FormMethod.Post))  
+{  
+        @Html.AntiForgeryToken()  
+        @Html.ValidationSummary(true)
+        @if (@ViewBag.Message != null)  
+        {  
+            <div class="alert alert-danger" id="ajaxAlert">
+                @ViewBag.ErrorMessage
+            </div> 
+        }
+
+    <div style="position: absolute; top: 35%; left: 45%; margin-top: -50px; margin-left: -50px; width: 320px; height: 80px;">
+        <fieldset>
+            <table style="border: 1px black">
+                <tr>
+                    @if (!String.IsNullOrEmpty(@Model?.ErrorMessage))
+                    {
+                        <div style="text-align: center; color: red;">@Model.ErrorMessage</div>
+                    }
+                </tr>
+                <tr>
+                    <td>@Html.LabelFor(a => a.Login)</td>
+                    <td>@Html.TextBoxFor(a => a.Login)</td>
+                    <td>@Html.ValidationMessageFor(a => a.Login)</td>
+                </tr>
+                <tr>
+                    <td>
+                        @Html.LabelFor(a => a.Password)
+                    </td>
+                    <td>
+                        @Html.PasswordFor(a => a.Password)
+                    </td>
+                    <td>@Html.ValidationMessageFor(a => a.Password)</td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Войти"/>
+                    </td>
+                </tr>
+            </table>
+            Регистрация по <a href="/User/Registry">ссылке</a>.
+        </fieldset>
+    </div>
+}
