@@ -20,6 +20,12 @@
         <fieldset>
             <table style="border: 1px black">
                 <tr>
+                    @if (!String.IsNullOrEmpty(@Model?.ErrorMessage))
+                    {
+                        <div style="text-align: center; color: red;">@Model.ErrorMessage</div>
+                    }
+                </tr>
+                <tr>
                     <td>@Html.LabelFor(a => a.Login)</td>
                     <td>@Html.TextBoxFor(a => a.Login)</td>
                     <td>@Html.ValidationMessageFor(a => a.Login)</td>

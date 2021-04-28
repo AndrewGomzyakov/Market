@@ -61,7 +61,8 @@ namespace Market
             services
                 .AddScoped<IPermissionService, PermissionService>()
                 .AddScoped<ICategoryService, CategoryService>()
-                .AddScoped<IProductService, ProductService>();
+                .AddScoped<IProductService, ProductService>()
+                .AddScoped<ISmsProvider, SmsProvider>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

@@ -10,8 +10,39 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Market/Services/PermissionService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Services/CategoryService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Controllers/ProductController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Models/CategorySaveModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/ServiceInterfaces/IProductService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/ServiceInterfaces/ICategoryService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/ServiceInterfaces/IPermissionService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/0423CB90-2071-4CB6-9066-13C7E5B61814/8/DefaultHttpContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/43D2FA95-A4F6-428B-A3DA-8E76FA4BADB4/C/SessionMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/AB0E3398-3BC1-4635-8E71-8B916CDB3B04/3/AuthorizationMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Context/UserStatus.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Migrations/20200527183123_InitialCreate.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Migrations/MarketContextModelSnapshot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/441B1F1D-0007-4533-BF4B-294EFD4F790B/194/ObjectMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Views/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/595A5ABC-AB92-4E7E-8842-727062C80162/C/Controller.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Controllers/CategoryController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Services/ProductService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Market/Views/Login/Login.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Market/Controllers/LoginController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Market/Views/Login/Registry.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Market/Views/Login/Login.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Market/Views/Login/GetRegistry.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
@@ -27,6 +58,7 @@
     <setting file="file://$PROJECT_DIR$/Market/Views/Product/GetRegistry.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Market/Views/Product/Save.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Market/Views/Category/Save.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/54AFE7EA-FDE7-4D1E-9BA0-C02D59B6BCB4/5a/0a19def6/RazorPage`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Market/Views/Category/GetRegistry.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Market/Views/Category/GetRegistry.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Market/Views/Category/Save.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
@@ -38,35 +70,26 @@
     <setting file="file://$PROJECT_DIR$/Market/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Market/Models/UserRole.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Market/Startup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Market/Models/CategorySaveModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Market/Context/DbCategory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Market/Context/DbBooking.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Market/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Market/Context/MarketContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Market/Context/DbUser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Market/Context/DbProduct.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../MarketRepository/Market/Migrations/MarketContextModelSnapshot.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../MarketRepository/Market/Migrations/20200527183123_InitialCreate.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Market/Services/PermissionService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Market/Services/CategoryService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Market/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Market/Controllers/ProductController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Market/ServiceInterfaces/IProductService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Market/ServiceInterfaces/ICategoryService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Market/ServiceInterfaces/IPermissionService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Market/Controllers/LoginController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Market/Services/ProductService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Market/Controllers/CategoryController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Market/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Market/Views/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Market/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Market/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/441B1F1D-0007-4533-BF4B-294EFD4F790B/F3/ActionMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/441B1F1D-0007-4533-BF4B-294EFD4F790B/FE/ControllerActionInvoker.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Market/Context/MarketContext.cs" />
       <option value="$PROJECT_DIR$/Market/Context/DbPhoto.cs" />
       <option value="$PROJECT_DIR$/Market/Context/DbProduct.cs" />
+      <option value="$PROJECT_DIR$/Market/Startup.cs" />
+      <option value="$PROJECT_DIR$/Market/Models/PhoneConfirmModel.cs" />
+      <option value="$PROJECT_DIR$/Market/Views/Login/Registry.cshtml" />
+      <option value="$PROJECT_DIR$/Market/Views/Login/ConfirmPhone.cshtml" />
+      <option value="$PROJECT_DIR$/Market/Services/SmsProvider.cs" />
+      <option value="$PROJECT_DIR$/Market/Controllers/LoginController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1cJQc28m26DcQQhDqMvXF5m0OLl" />
@@ -76,6 +99,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3498452" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="Rider.SolutionExplorerActivator" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -134,6 +159,8 @@
       <workItem from="1590676575276" duration="2574000" />
       <workItem from="1618581586814" duration="146000" />
       <workItem from="1619251249910" duration="2329000" />
+      <workItem from="1619458031085" duration="5064000" />
+      <workItem from="1619630161917" duration="2068000" />
     </task>
     <servers />
   </component>
@@ -157,126 +184,9 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state width="472" height="466" key="DebuggerActiveHint" timestamp="1590605101763">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="472" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1590605101763" />
-    <state width="1323" height="146" key="GridCell.Tab.0.bottom" timestamp="1590679499512">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="146" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590679499512" />
-    <state width="1323" height="146" key="GridCell.Tab.0.center" timestamp="1590679499512">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="146" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590679499512" />
-    <state width="1323" height="146" key="GridCell.Tab.0.left" timestamp="1590679499512">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="146" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590679499512" />
-    <state width="1323" height="146" key="GridCell.Tab.0.right" timestamp="1590679499512">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="146" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590679499512" />
-    <state width="1323" height="167" key="GridCell.Tab.1.bottom" timestamp="1590662568136">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="167" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590662568136" />
-    <state width="1323" height="167" key="GridCell.Tab.1.center" timestamp="1590662568136">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="167" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1590662568136" />
-    <state width="1323" height="167" key="GridCell.Tab.1.left" timestamp="1590662568136">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="167" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1590662568136" />
-    <state width="1323" height="167" key="GridCell.Tab.1.right" timestamp="1590662568136">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="167" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1590662568136" />
-    <state width="1323" height="167" key="GridCell.Tab.2.bottom" timestamp="1590662568151">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="167" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590662568151" />
-    <state width="1323" height="167" key="GridCell.Tab.2.center" timestamp="1590662568136">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="167" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1590662568136" />
-    <state width="1323" height="167" key="GridCell.Tab.2.left" timestamp="1590662568136">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="167" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1590662568136" />
-    <state width="1323" height="167" key="GridCell.Tab.2.right" timestamp="1590662568136">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="167" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1590662568136" />
-    <state width="1323" height="167" key="GridCell.Tab.3.bottom" timestamp="1590662568151">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="167" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590662568151" />
-    <state width="1323" height="167" key="GridCell.Tab.3.center" timestamp="1590662568151">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="167" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1590662568151" />
-    <state width="1323" height="167" key="GridCell.Tab.3.left" timestamp="1590662568151">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="167" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1590662568151" />
-    <state width="1323" height="167" key="GridCell.Tab.3.right" timestamp="1590662568151">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="167" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1590662568151" />
-    <state width="1323" height="167" key="GridCell.Tab.4.bottom" timestamp="1590662568151">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="167" key="GridCell.Tab.4.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590662568151" />
-    <state width="1323" height="167" key="GridCell.Tab.4.center" timestamp="1590662568151">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="167" key="GridCell.Tab.4.center/0.0.1366.728@0.0.1366.728" timestamp="1590662568151" />
-    <state width="1323" height="167" key="GridCell.Tab.4.left" timestamp="1590662568151">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="167" key="GridCell.Tab.4.left/0.0.1366.728@0.0.1366.728" timestamp="1590662568151" />
-    <state width="1323" height="167" key="GridCell.Tab.4.right" timestamp="1590662568151">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="167" key="GridCell.Tab.4.right/0.0.1366.728@0.0.1366.728" timestamp="1590662568151" />
-    <state x="499" y="54" key="RiderGenerateDialog" timestamp="1590511212406">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="499" y="54" key="RiderGenerateDialog/0.0.1366.728@0.0.1366.728" timestamp="1590511212406" />
-    <state width="691" height="372" key="XDebugger.FullValuePopup" timestamp="1590604872999">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="691" height="372" key="XDebugger.FullValuePopup/0.0.1366.728@0.0.1366.728" timestamp="1590604872999" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1590641511012">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1590641511012" />
-    <state x="339" y="17" width="672" height="676" key="search.everywhere.popup" timestamp="1590641355776">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="339" y="17" width="672" height="676" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1590641355776" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Market/Controllers/LoginController.cs</url>
-          <line>51</line>
-          <properties documentPath="$PROJECT_DIR$/Market/Controllers/LoginController.cs" initialLine="44">
-            <startOffsets>
-              <option value="1797" />
-              <option value="1854" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1870" />
-              <option value="1868" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Market/Services/ProductService.cs</url>
           <line>135</line>
@@ -302,6 +212,75 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Market/Controllers/LoginController.cs</url>
+          <line>167</line>
+          <properties documentPath="C:\C#\MarketRepository\Market\Controllers\LoginController.cs" initialLine="150" containingFunctionPresentation="method 'ConfirmPhone'">
+            <startOffsets>
+              <option value="6094" />
+              <option value="6151" />
+            </startOffsets>
+            <endOffsets>
+              <option value="6169" />
+              <option value="6167" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Market/Controllers/LoginController.cs</url>
+          <line>161</line>
+          <properties documentPath="C:\C#\MarketRepository\Market\Controllers\LoginController.cs" initialLine="145" containingFunctionPresentation="method 'ConfirmPhone'">
+            <startOffsets>
+              <option value="5894" />
+            </startOffsets>
+            <endOffsets>
+              <option value="5944" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Market/Controllers/LoginController.cs</url>
+          <line>124</line>
+          <properties documentPath="C:\C#\MarketRepository\Market\Controllers\LoginController.cs" initialLine="124" containingFunctionPresentation="method 'Registry'">
+            <startOffsets>
+              <option value="4514" />
+            </startOffsets>
+            <endOffsets>
+              <option value="4569" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Market/Controllers/LoginController.cs</url>
+          <line>79</line>
+          <properties documentPath="C:\C#\MarketRepository\Market\Controllers\LoginController.cs" initialLine="79" containingFunctionPresentation="method 'Login'">
+            <startOffsets>
+              <option value="2611" />
+              <option value="2657" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2701" />
+              <option value="2699" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Market/Controllers/LoginController.cs</url>
+          <line>173</line>
+          <properties documentPath="C:\C#\MarketRepository\Market\Controllers\LoginController.cs" initialLine="159" containingFunctionPresentation="method 'ConfirmPhone'">
+            <startOffsets>
+              <option value="6369" />
+            </startOffsets>
+            <endOffsets>
+              <option value="6391" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="54" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

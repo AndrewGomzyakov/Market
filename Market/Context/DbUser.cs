@@ -23,5 +23,10 @@ namespace Market.Context
 
         [Required]
         public UserRole Role { get; set; }
+        
+        public string Code { get; set; }
+
+        [Required]
+        public UserStatus Status { get; set; }
     }
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\C#\Market" t="IncludeFlat">
+    <e p="C:\C#\MarketRepository" t="IncludeFlat">
       <e p="Market" t="IncludeRecursive">
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
@@ -12,6 +12,7 @@
           <e p="DbProduct.cs" t="Include" />
           <e p="DbUser.cs" t="Include" />
           <e p="MarketContext.cs" t="Include" />
+          <e p="UserStatus.cs" t="Include" />
         </e>
         <e p="Controllers" t="Include">
           <e p="CategoryController.cs" t="Include" />
@@ -23,12 +24,15 @@
         <e p="Migrations" t="Include">
           <e p="20200527183123_InitialCreate.cs" t="Include" />
           <e p="20200527183123_InitialCreate.Designer.cs" t="Include" />
+          <e p="20210424103115_newMigration.cs" t="Include" />
+          <e p="20210424103115_newMigration.Designer.cs" t="Include" />
           <e p="MarketContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
           <e p="CategorySaveModel.cs" t="Include" />
           <e p="ErrorViewModel.cs" t="Include" />
           <e p="LoginModel.cs" t="Include" />
+          <e p="PhoneConfirmModel.cs" t="Include" />
           <e p="ProductRegistryModel.cs" t="Include" />
           <e p="ProductSaveModel.cs" t="Include" />
           <e p="RegistryModel.cs" t="Include" />
@@ -50,11 +54,13 @@
           <e p="ICategoryService.cs" t="Include" />
           <e p="IPermissionService.cs" t="Include" />
           <e p="IProductService.cs" t="Include" />
+          <e p="ISmsProvider.cs" t="Include" />
         </e>
         <e p="Services" t="Include">
           <e p="CategoryService.cs" t="Include" />
           <e p="PermissionService.cs" t="Include" />
           <e p="ProductService.cs" t="Include" />
+          <e p="SmsProvider.cs" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
         <e p="Views" t="Include">
@@ -70,6 +76,8 @@
             <e p="Index.cshtml" t="Include" />
           </e>
           <e p="Login" t="Include">
+            <e p="ConfirmPhone.cshtml" t="Include" />
+            <e p="ConfirmPhone.cshtml.cs" t="Include" />
             <e p="GetRegistry.cshtml" t="Include" />
             <e p="GetRegistry.cshtml.cs" t="Include" />
             <e p="GetUserBookings.cshtml" t="Include" />
@@ -158,6 +166,6 @@
       <e p="packages" t="ExcludeRecursive" />
     </e>
     <e p="C:\Users\Андрей\AppData\local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Андрей\AppData\local\JetBrains\Rider2020.3\resharper-host\local\Transient\Rider\v203\SolutionCaches\_Market.1405587577.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Андрей\AppData\local\JetBrains\Rider2020.3\resharper-host\local\Transient\Rider\v203\SolutionCaches\_Market.-941381009.00" t="ExcludeRecursive" />
   </component>
 </project>
