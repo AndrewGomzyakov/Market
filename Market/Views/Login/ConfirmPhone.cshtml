@@ -1,53 +1,91 @@
 ﻿@model PhoneConfirmModel
 
-@{
+@{ 
     Layout = null;
-    ViewBag.Title = "ConfirmPhone";  
-}  
-  
-@using (Html.BeginForm("ConfirmPhone", "Login", FormMethod.Post))  
-{  
-        @Html.AntiForgeryToken()  
-        @Html.ValidationSummary(true)
-        @if (@ViewBag.Message != null)  
-        {  
-            <div class="alert alert-danger" id="ajaxAlert">
-                @ViewBag.ErrorMessage
-            </div> 
-        }
+    ViewBag.Title = "ConfirmPhone"; 
+    
+}
 
-    <div style="position: absolute; top: 35%; left: 45%; margin-top: -50px; margin-left: -50px; width: 320px; height: 80px;">
-    <div style="text-align: center; color: #1b1e21;">Подтвердите номер телефона</div>
-        <fieldset>
-            <table style="border: 1px black">
-                <tr>
-                    @if (!String.IsNullOrEmpty(@Model?.ErrorMessage))
-                    {
-                        <div style="text-align: center; color: red;">@Model.ErrorMessage</div>
-                    }
-                </tr>
-                <tr>
-                    <td>@Html.LabelFor(a => a.Login)</td>
-                    <td>@Html.TextBoxFor(a => a.Login)</td>
-                    <td>@Html.ValidationMessageFor(a => a.Login)</td>
-                </tr>
-                <tr>
-                    <td>
-                        @Html.LabelFor(a => a.Code)
-                    </td>
-                    <td>
-                        @Html.PasswordFor(a => a.Code)
-                    </td>
-                    <td>@Html.ValidationMessageFor(a => a.Code)</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>
-                        <input type="submit" value="Отправить код."/>
-                    </td>
-                    <td></td>
-                </tr>
-            </table>
-        </fieldset>
+@using (Html.BeginForm("ConfirmPhone", "Login", FormMethod.Post))
+
+{
+
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary(true)
+                @if (@ViewBag.Message != null)
+                                
+                {
+                <div class="alert alert-danger" id="ajaxAlert">
+                    @ViewBag.ErrorMessage
+                </div>
+                
+                }
+
+
+
+<html>
+<head>
+
+    <link rel="stylesheet" type="text/css" href="~/css/cool.css">
+    <link rel="stylesheet" type="text/css" href="~/css/commentError.css">
+
+    <script type="text/javascript" src="~/js/jquery-1.4.1.min.js"></script>
+    <script type="text/javascript" src="~/js/transition.js"></script>
+    <script type="text/javascript" src="~/js/login.js"></script>
+
+</head>
+
+<body>
+    <div class="materialContainer">
+
+
+        @if (!String.IsNullOrEmpty(@Model?.ErrorMessage))
+        {
+    <div id="reviews">
+        <div class="comment">
+            <div class="comment_bubble">
+                <p class="comment_text">@Model.ErrorMessage</p>
+            </div>
+        </div>
+    </div>}
+
+
+        <div class="box">
+
+            <div class="title">Регистрация</div>
+
+
+            <div class="input">
+
+                @Html.LabelFor(a => a.Login)
+                @Html.TextBoxFor(a => a.Login)
+                @Html.ValidationMessageFor(a => a.Login)
+
+                <span class="spin"></span>
+            </div>
+
+            <div class="input">
+
+                @Html.LabelFor(a => a.Code)
+                @Html.PasswordFor(a => a.Code)
+                @Html.ValidationMessageFor(a => a.Code)
+
+                <span class="spin"></span>
+            </div>
+
+            <div class="button login">
+
+
+
+                <button><span>Зарегистрироваться</span> <i class="fa fa-check"></i></button>
+
+            </div>
+
+        </div>
     </div>
+
+</body>
+
+</html>
+
 }

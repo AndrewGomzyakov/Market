@@ -127,6 +127,11 @@ namespace Market.Controllers
                 return View(new RegistryModel {ErrorMessage = "Этот логин занят. Придумайте новый логин."});
             }
 
+            if (login == null)
+            {
+                return View(new RegistryModel { ErrorMessage = "Пожалуйста, введите логин" });
+            }
+
             var isPhone = Regex.Match(login, "7\\d{10}");
             if (!isPhone.Success)
             {

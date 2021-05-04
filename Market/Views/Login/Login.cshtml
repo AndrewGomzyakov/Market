@@ -1,51 +1,106 @@
 ﻿@model LoginModel
 
-@{
-    Layout = null;
-    ViewBag.Title = "Login";  
-}  
-  
-@using (Html.BeginForm("Login", "Login", FormMethod.Post))  
-{  
-        @Html.AntiForgeryToken()  
-        @Html.ValidationSummary(true)
-        @if (@ViewBag.Message != null)  
-        {  
-            <div class="alert alert-danger" id="ajaxAlert">
-                @ViewBag.ErrorMessage
-            </div> 
-        }
+@{ Layout = null;
+                ViewBag.Title = "Login2"; }
 
-    <div style="position: absolute; top: 35%; left: 45%; margin-top: -50px; margin-left: -50px; width: 320px; height: 80px;">
-        <fieldset>
-            <table style="border: 1px black">
-                <tr>
-                    @if (!String.IsNullOrEmpty(@Model?.ErrorMessage))
-                    {
-                        <div style="text-align: center; color: red;">@Model.ErrorMessage</div>
-                    }
-                </tr>
-                <tr>
-                    <td>@Html.LabelFor(a => a.Login)</td>
-                    <td>@Html.TextBoxFor(a => a.Login)</td>
-                    <td>@Html.ValidationMessageFor(a => a.Login)</td>
-                </tr>
-                <tr>
-                    <td>
-                        @Html.LabelFor(a => a.Password)
-                    </td>
-                    <td>
-                        @Html.PasswordFor(a => a.Password)
-                    </td>
-                    <td>@Html.ValidationMessageFor(a => a.Password)</td>
-                </tr>
-                <tr>
-                    <td>
-                        <input type="submit" value="Войти"/>
-                    </td>
-                </tr>
-            </table>
-            Регистрация по <a href="/User/Registry">ссылке</a>.
-        </fieldset>
-    </div>
+@using (Html.BeginForm("Login", "Login", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+    @if (@ViewBag.Message != null)
+    {
+        <div class="alert alert-danger" id="ajaxAlert">
+            @ViewBag.ErrorMessage
+        </div>
+    }
+
+
+    <html>
+    <head>
+
+        <link rel="stylesheet" type="text/css" href="~/css/cool.css">
+        <link rel="stylesheet" type="text/css" href="~/css/commentError.css">
+
+        <script type="text/javascript" src="~/js/jquery-1.4.1.min.js"></script>
+        <script type="text/javascript" src="~/js/transition.js"></script>
+        <script type="text/javascript" src="~/js/login.js"></script>
+
+    </head>
+
+
+
+
+    <body>
+        <div class="materialContainer">
+
+
+            @if (!String.IsNullOrEmpty(@Model?.ErrorMessage))
+            {
+        <div id="reviews">
+            <div class="comment">
+                <div class="comment_bubble">
+                    <p class="comment_text">@Model.ErrorMessage</p>
+                </div>
+            </div>
+        </div>}
+
+        <div class="box">
+
+            <div class="title">Вход</div>
+
+
+            <div class="input">
+
+                @Html.LabelFor(a => a.Login)
+
+                @Html.TextBoxFor(a => a.Login)
+
+                @Html.ValidationMessageFor(a => a.Login)
+
+                <span class="spin"></span>
+            </div>
+
+
+
+
+
+            <div class="input">
+
+
+
+                @Html.LabelFor(a => a.Password)
+
+
+                @Html.PasswordFor(a => a.Password)
+
+
+                @Html.ValidationMessageFor(a => a.Password)
+
+
+                <span class="spin"></span>
+            </div>
+
+            <div class="button login">
+
+
+
+                <button><span>Войти</span> <i class="fa fa-check"></i></button>
+
+            </div>
+
+
+            <a class="transition floating-button" href="Registry">Регистрация</a>
+            
+
+
+
+        </div>
+
+        </div>
+
+
+    </body>
+
+</html>
+
 }
