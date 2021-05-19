@@ -11,7 +11,7 @@ namespace Market.Context
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<DbUser>().HasMany<DbBooking>().WithOne().HasForeignKey(x => x.BookerUserId);
-            modelBuilder.Entity<DbUser>().HasMany<DbBooking>().WithOne().HasForeignKey(x => x.OwnerUserId);
+            //modelBuilder.Entity<DbUser>().HasMany<DbBooking>().WithOne().HasForeignKey(x => x.OwnerUserId);
 
             modelBuilder.Entity<DbCategory>();
 
@@ -21,7 +21,10 @@ namespace Market.Context
                 .HasForeignKey(x => x.CategoryId);
 
 
-            modelBuilder.Entity<DbBooking>();
+            modelBuilder.Entity<DbBooking>()
+                .HasOne(x => x.BookerUser)
+                .WithMany()
+                .HasForeignKey(x => x.BookerUserId);
 
         }
 

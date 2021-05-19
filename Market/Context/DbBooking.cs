@@ -10,6 +10,8 @@ namespace Market.Context
         public Guid Id { get; set; }
         
         public Guid BookerUserId { get; set; }
+
+        public DbUser BookerUser { get; set; }
         
         public Guid OwnerUserId { get; set; }
         
