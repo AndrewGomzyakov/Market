@@ -41,7 +41,7 @@ namespace Market
                 .AddHttpContextAccessor()
                 .AddAuthentication(options =>
                 {
-                    options.RequireAuthenticatedSignIn = true;
+                    options.RequireAuthenticatedSignIn = false;
                     options.DefaultChallengeScheme = CookieAuthenticationDefaults.AuthenticationScheme;
                     options.DefaultAuthenticateScheme = CookieAuthenticationDefaults.AuthenticationScheme;
                 })

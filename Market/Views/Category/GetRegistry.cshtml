@@ -22,7 +22,8 @@
      </div>
  }
 
-@if (@Context.User.Claims.First(c => c.Type == "UserRole").Value == "Admin")
+@if (@Context.User.Claims.FirstOrDefault() != null &&
+     @Context.User.Claims.First(c => c.Type == "UserRole").Value == "Admin")
 {
     <p><a href="/Category/Save" class="button">Добавить новую категорию</a></p>
 }

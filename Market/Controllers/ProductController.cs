@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Market.Context;
 using Market.Models;
 using Market.ServiceInterfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -22,6 +23,7 @@ namespace Market.Controllers
             _context = context;
         }
 
+        [AllowAnonymous]
         [HttpGet("GetRegistry/{categoryId}")]
         public async Task<IActionResult> GetRegistry([FromRoute] Guid categoryId)
         {

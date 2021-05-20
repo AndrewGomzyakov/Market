@@ -48,7 +48,7 @@ namespace Market.Controllers
         public async Task<IActionResult> Logout()
         {
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-            return Redirect("/User/Login");
+            return Redirect("/");
         }
 
         [HttpGet("SetRole")]

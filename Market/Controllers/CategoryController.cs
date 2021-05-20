@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Market.Context;
 using Market.ServiceInterfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Market.Controllers
@@ -18,6 +19,7 @@ namespace Market.Controllers
             _categoryService = categoryService;
         }
 
+        [AllowAnonymous]
         [HttpGet("GetRegistry")]
         public async Task<IActionResult> GetRegistry()
         {

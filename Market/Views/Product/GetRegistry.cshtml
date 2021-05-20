@@ -142,7 +142,8 @@ h2{
                 <th>Наименование</th>
                 <th>Стоимость</th>
                 <th>Количество в наличии</th>
-                @if (@Context.User.Claims.First(c => c.Type == "UserRole").Value != "Admin")
+                @if (@Context.User.Claims.FirstOrDefault() != null &&
+                     @Context.User.Claims.First(c => c.Type == "UserRole").Value != "Admin")
                 {
                     <th>Действия с товаром</th>
                 }
@@ -158,11 +159,11 @@ h2{
                     <td>@item.Price</td>
                     <td>@item.Count</td>
             <td>
-                @if (@Context.User.Claims.First(c => c.Type == "UserRole").Value == "Customer")
+                @if (@Context.User.Claims.FirstOrDefault() != null && @Context.User.Claims.First(c => c.Type == "UserRole").Value == "Customer")
                 {
                     <a href="/Product/Reserve?productId=@item.Id&categoryId=@Model.CategoryId">Зарезервировать</a>
                 }
-                @if (@Context.User.Claims.First(c => c.Type == "UserRole").Value == "Manager")
+                @if (@Context.User.Claims.FirstOrDefault() != null && @Context.User.Claims.First(c => c.Type == "UserRole").Value == "Manager")
                 {
                     <a href="/Product/Delete?productId=@item.Id&categoryId=@Model.CategoryId">Удалить</a>
                     <a href="/Product/Save?productId=@item.Id&categoryId=@item.CategoryId">Изменить</a>
@@ -180,11 +181,11 @@ else
     <h5>В эту категорию еще не было добавлено ни одного товара</h5>
 }
 
-@if (@Context.User.Claims.First(c => c.Type == "UserRole").Value == "Manager")
+@if (@Context.User.Claims.FirstOrDefault() != null && @Context.User.Claims.First(c => c.Type == "UserRole").Value == "Manager")
 {
     <a href="/Product/Save?categoryId=@Model.CategoryId" class="button">Добавить новый продукт</a>
 }
-@if (@Context.User.Claims.First(c => c.Type == "UserRole").Value == "Admin")
+@if (@Context.User.Claims.FirstOrDefault() != null && @Context.User.Claims.First(c => c.Type == "UserRole").Value == "Admin")
 {
     <a href="/Category/Delete/@Model.CategoryId" class="button">Удалить категорию</a>
 }
