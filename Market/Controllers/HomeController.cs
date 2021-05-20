@@ -14,7 +14,7 @@ namespace Market.Controllers
         {
             _logger = logger;
         }
-        
+
         [AllowAnonymous]
         public IActionResult Index()
         {

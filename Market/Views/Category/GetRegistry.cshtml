@@ -4,26 +4,20 @@
     Layout = "_Layout";
 }
 
-<style>
-.oneThird{
-    width:20%;
-    float:left;
-    margin:.5%;
-}
-.oneThird img{
-    width:100%;
-}
-</style>
- @foreach (var item in Model)
- {
-     <div class="oneThird">
-         <img style='width:80px; height:80px;' src="data:image/jpeg;base64,@(Convert.ToBase64String(item.Image))"/>
-         <p><a href="/Product/GetRegistry/@item.Id">@item.Name</a></p>
-     </div>
- }
+<link rel="stylesheet" type="text/css" href="~/css/small_things.css">
+<link rel="stylesheet" type="text/css" href="~/css/GetReg_category.css">
 
-@if (@Context.User.Claims.FirstOrDefault() != null &&
-     @Context.User.Claims.First(c => c.Type == "UserRole").Value == "Admin")
+@foreach (var item in Model)
 {
-    <p><a href="/Category/Save" class="button">Добавить новую категорию</a></p>
+<div class="oneThird">
+    <img style="width: 80px; height: 80px; background: white;" src="data:image/jpeg;base64,@(Convert.ToBase64String(item.Image))" />
+    <p><a href="/Product/GetRegistry/@item.Id">@item.Name</a></p>
+
+</div>
 }
+
+        @if (@Context.User.Claims.FirstOrDefault() != null &&
+            @Context.User.Claims.First(c => c.Type == "UserRole").Value == "Admin")
+        {
+            <p><a href="/Category/Save" class="floating-button_small">Добавить новую категорию</a></p>
+        }

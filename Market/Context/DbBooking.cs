@@ -12,7 +12,7 @@ namespace Market.Context
         public Guid BookerUserId { get; set; }
 
         public DbUser BookerUser { get; set; }
-        
+
         public Guid OwnerUserId { get; set; }
         
         public Guid ProductId { get; set; }

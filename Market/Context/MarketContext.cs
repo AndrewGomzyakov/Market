@@ -22,9 +22,9 @@ namespace Market.Context
 
 
             modelBuilder.Entity<DbBooking>()
-                .HasOne(x => x.BookerUser)
-                .WithMany()
-                .HasForeignKey(x => x.BookerUserId);
+    .HasOne(x => x.BookerUser)
+    .WithMany()
+    .HasForeignKey(x => x.BookerUserId);
 
         }
 

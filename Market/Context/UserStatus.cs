@@ -2,7 +2,7 @@
 {
     public enum UserStatus
     {
-        NotApproved = 1,
+        NotApproved = 1,       
         Approved = 3,
     }
 }

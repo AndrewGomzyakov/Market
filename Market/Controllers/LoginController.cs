@@ -197,9 +197,10 @@ namespace Market.Controllers
             if (_httpContextAccessor.HttpContext.User.Claims.First(c => c.Type == "UserRole").Value == "Manager")
             {
                 bookings = await _context.Bookings
-                    .Include(x => x.BookerUser)
-                    .Where(x => x.OwnerUserId == currentUserId && x.Count > 0)
-                    .ToArrayAsync();
+    .Include(x => x.BookerUser)
+    .Where(x => x.OwnerUserId == currentUserId && x.Count > 0)
+    .ToArrayAsync();
+
             }
 
             if (_httpContextAccessor.HttpContext.User.Claims.First(c => c.Type == "UserRole").Value == "Customer")
